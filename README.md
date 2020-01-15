@@ -27,3 +27,7 @@ I manually change the `lr` during training:
 - `0.001` for epoch `[250,350)`
 
 Resume the training with `python main.py --resume --lr=0.01`
+
+# BBuf
+
+- point_regression.py 添加一个关键点回归BaseLine网络，在models下面的pointnet.py中。
